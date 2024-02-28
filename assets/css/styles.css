@@ -14,6 +14,10 @@ header {
     background-color: #333;
     color: #fff;
     padding: 20px 0;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000; /* Asegúrate de que el valor de z-index sea mayor que el del contenido */
 }
 
 .header-left {
@@ -41,7 +45,8 @@ button:hover {
 }
 
 main {
-    padding: 20px 0;
+    padding: 80px 0 20px; /* Ajusta el valor superior según el tamaño de tu barra de navegación */
+    margin-top: 60px; /* Ajusta este valor según el tamaño de tu barra de navegación */
 }
 
 footer {
