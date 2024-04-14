@@ -1,0 +1,78 @@
+body {
+    font-family: 'Arial', sans-serif;
+    color: #ffffff;
+    background-color: #121212;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #1e1e1e;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 24px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav ul li {
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    color: #00ff00;
+}
+
+main {
+    padding: 20px;
+}
+
+h2 {
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+
+#habilidades ul {
+    list-style: none;
+    padding: 0;
+}
+
+#habilidades ul li {
+    padding: 5px;
+    background-color: #2a2a2a;
+    margin-bottom: 10px;
+}
+
+.project-card {
+    background-color: #2a2a2a;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+.project-card:hover {
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.5);
+    transform: scale(1.02);
+    transition: transform 0.3s ease;
+}
+
+#contacto p {
+    margin: 10px 0;
+    font-size: 18px;
+}
