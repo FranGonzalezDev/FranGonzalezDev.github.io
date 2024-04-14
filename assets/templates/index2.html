@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/styles2.css">
+    <title>Francisco González - Desarrollador</title>
+</head>
+
+<body>
+    <header>
+        <h1>Francisco González</h1>
+        <nav>
+            <ul>
+                <li><a href="#presentacion">Presentación</a></li>
+                <li><a href="#habilidades">Habilidades</a></li>
+                <li><a href="#proyectos">Proyectos</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="presentacion">
+            <h2>Presentación</h2>
+            <p>Soy Francisco González, un desarrollador apasionado por la creación de aplicaciones web y software. Disfruto trabajar con tecnologías como React, Angular, Django, Java y JavaScript.</p>
+        </section>
+
+        <section id="habilidades">
+            <h2>Habilidades</h2>
+            <div class="skill-bar" id="skill-bar-react">
+                <div class="skill-progress" style="width: 90%;">React</div>
+            </div>
+            <div class="skill-bar" id="skill-bar-angular">
+                <div class="skill-progress" style="width: 85%;">Angular</div>
+            </div>
+            <div class="skill-bar" id="skill-bar-django">
+                <div class="skill-progress" style="width: 80%;">Django</div>
+            </div>
+            <div class="skill-bar" id="skill-bar-java">
+                <div class="skill-progress" style="width: 75%;">Java</div>
+            </div>
+            <div class="skill-bar" id="skill-bar-js">
+                <div class="skill-progress" style="width: 95%;">JavaScript</div>
+            </div>
+        </section>
+
+        <section id="proyectos">
+            <h2>Proyectos</h2>
+            <div class="project-card">
+                <h3>Proyecto 1</h3>
+                <p>Descripción del Proyecto 1.</p>
+            </div>
+            <div class="project-card">
+                <h3>Proyecto 2</h3>
+                <p>Descripción del Proyecto 2.</p>
+            </div>
+            <div class="project-card">
+                <h3>Proyecto 3</h3>
+                <p>Descripción del Proyecto 3.</p>
+            </div>
+        </section>
+
+        <section id="contacto">
+            <h2>Contacto</h2>
+            <form id="contact-form">
+                <div class="form-group">
+                    <label for="name">Nombre:</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Correo Electrónico:</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="message">Mensaje:</label>
+                    <textarea id="message" name="message" required></textarea>
+                </div>
+                <button type="submit">Enviar</button>
+            </form>
+            <p id="response-message"></p>
+        </section>
+    </main>
+
+    <script src="../js/script2.js"></script>
+</body>
+
+</html>
